@@ -1,0 +1,61 @@
+h1{
+    color:white;
+    text-align:center;
+}
+
+div.heading{
+    background-image:url("fire.gif");
+    background-repeat:repeat-x;
+    background-size:cover;
+    background-position-y:bottom;
+    padding:1px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style-type: square;
+}
+
+div.container{
+    margin:auto;
+    padding:1%
+    
+}
+
+div.container div{
+    height:250px;
+    display:inline-block;
+    text-align: center;
+    width:40%;
+    margin: 2%
+}
+
+
+img{
+    width:100%;
+    height:auto;
+}
+
+table{
+    margin:auto;
+    border-collapse: collapse;
+
+}
+tr, td, th{
+    border:1px solid black;
+    padding:3px;
+    margin:0;
+}
+p.tiny{
+    font-size:6px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    padding:4px;
+}
+p.tiny a {
+    font-size: x-small;
+}
