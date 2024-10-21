@@ -29,19 +29,24 @@ div.container div{
     height:250px;
     display:inline-block;
     text-align: center;
-    width:40%;
+    width:45%;
     margin: 2%
 }
-
+div.image{
+    float:right;
+    overflow-y:hidden;
+}
 
 img{
     width:100%;
     height:auto;
+    
 }
 
 table{
     margin:auto;
     border-collapse: collapse;
+    margin-top:3px;
 
 }
 tr, td, th{
@@ -58,4 +63,8 @@ p.tiny{
 }
 p.tiny a {
     font-size: x-small;
+}
+
+html{
+    color-scheme: dark;
 }
