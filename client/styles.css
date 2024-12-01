@@ -1,4 +1,35 @@
 h1#title{
     font-family: "Karla", sans-serif;
+    font-size:50;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+img, h1#title{
+    display:inline-block;
+}
+div.container{
+    text-align:center
+}
+div#top{
+    background-color: #f5cbea;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    border: 5px solid white;
+    border-width:0 5px 5px 5px;
+    box-shadow: 0px 0px 10px 10px rgb(255, 255, 255);
 
+}
+
+body{
+    background-color: #aaf1b9 !important;
+}
+div.content{
+    text-align: center;
+    font-size:25;
+}
+p#txt{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color:white;
 }
