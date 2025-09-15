@@ -41,3 +41,26 @@ p#txt{
     opacity:0;
     font-size:1px;
 }
+
+.dnc{
+    background-color: #f5cbea;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: "Karla", sans-serif;
+    color:white;
+    border: 4px solid white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    transition: transform 0.5s, background-color 0.5s;
+
+    box-shadow: 0px 0px 10px 10px rgb(255, 255, 255);
+}
+.red{
+    color:rgb(255, 80, 80);
+}
+
+button:hover{
+    transform:scale(1.2);
+    background-color: #eeacdc;
+
+}
