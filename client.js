@@ -12,7 +12,8 @@ document.getElementById("dnc").addEventListener("click", ()=>{
         "https://youtu.be/bQEmB8Nezwo?si=AH3329BshlbichUO", 
         "https://youtu.be/cwI4ULzau7w?si=UmdkMU3_tIpS4dK5", 
         "https://youtu.be/k7EAVK3bAGg?si=uReTJ4-N2qBtEt33", 
-        "https://youtu.be/AqtXtnUGPiA?si=_XCmLHPbFBNiEw2G"
+        "https://youtu.be/AqtXtnUGPiA?si=_XCmLHPbFBNiEw2G",
+        "https://youtu.be/5vRlJrkxsqo?si=RXePX8ReNDlQXSTT"
     ];
     let url = links[Math.floor(Math.random()*links.length)];
     window.location.href = url;
