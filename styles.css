@@ -7,6 +7,9 @@ h1#title{
 img, h1#title{
     display:inline-block;
 }
+img{
+    max-width:100%;
+}
 div.container{
     text-align:center
 }
@@ -32,4 +35,9 @@ div.content{
 p#txt{
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     color:white;
+}
+
+.invis{
+    opacity:0;
+    font-size:1px;
 }
