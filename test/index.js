@@ -1,0 +1,25 @@
+var og_url = document.createElement('meta');
+  og_url.setAttribute('property', 'og:url');
+  og_url.content = document.location;
+  document.getElementsByTagName('head')[0].appendChild(og_url);
+var og_title = document.createElement('meta');
+  og_title.setAttribute('property', 'og:title');
+  og_title.content = "test title";
+    document.getElementsByTagName('head')[0].appendChild(og_title);
+var og_type = document.createElement('meta');
+    og_type.setAttribute('property', 'og:type');
+    og_type.content = "website";
+    document.getElementsByTagName('head')[0].appendChild(og_type);
+var og_image = document.createElement('meta');
+    og_image.setAttribute('property', 'og:image');
+    og_image.content = "https://the.piggypiggyyoinkyoink.website/piggy.png";
+    document.getElementsByTagName('head')[0].appendChild(og_image);
+var og_description = document.createElement('meta');
+    og_description.setAttribute('property', 'og:description');
+    og_description.content = "test description";
+    document.getElementsByTagName('head')[0].appendChild(og_description);
+var og_site_name = document.createElement('meta');
+    og_site_name.setAttribute('property', 'og:site_name');
+    og_site_name.content = "the.piggypiggyyoinkyoink.website";
+    document.getElementsByTagName('head')[0].appendChild(og_site_name);
+    
